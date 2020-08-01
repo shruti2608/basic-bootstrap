@@ -1,0 +1,27 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"to learn Node.js\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start" : "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite" : "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shruti2608/git-test.git"
+  },
+  "author": "\"Shruti\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shruti2608/git-test/issues"
+  },
+  "homepage": "https://github.com/shruti2608/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
